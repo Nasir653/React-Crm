@@ -20,7 +20,7 @@ const Pmu_Details = () => {
 
         <>
             <Container maxWidth="lg">
-                {/* Main Box */}
+
                 <Paper
                     sx={{
                         backgroundColor: "#04384A",
@@ -29,7 +29,7 @@ const Pmu_Details = () => {
                         borderRadius: 2,
                     }}
                 >
-                    {/* Header */}
+
                     <Box display="flex" justifyContent="space-between" alignItems="center">
                         <Typography variant="h6">PMU Anomaly Details</Typography>
                         <Box>
@@ -42,15 +42,15 @@ const Pmu_Details = () => {
                         </Box>
                     </Box>
 
-                    {/* Thresholds */}
+
                     <Box display="flex" justifyContent="space-between" sx={{ px: 2, mt: 1 }}>
                         <Typography>AAS Threshold: %</Typography>
                         <Typography>AS Threshold: %</Typography>
                     </Box>
 
-                    {/* Score Cards */}
+
                     <Grid container spacing={2} sx={{ mt: 2 }}>
-                        {/* PMU Anomaly Score */}
+
                         <Grid item xs={4}>
                             <Paper
                                 sx={{
@@ -79,7 +79,7 @@ const Pmu_Details = () => {
                             </Paper>
                         </Grid>
 
-                        {/* MOI Anomaly Score */}
+
                         <Grid item xs={4}>
                             <Paper
                                 sx={{
@@ -108,7 +108,7 @@ const Pmu_Details = () => {
                             </Paper>
                         </Grid>
 
-                        {/* KPI Anomaly Score */}
+
                         <Grid item xs={4}>
                             <Paper
                                 sx={{
@@ -138,22 +138,22 @@ const Pmu_Details = () => {
                         </Grid>
                     </Grid>
 
-                    {/* Prediction Chart */}
+
                     <Paper sx={{ mt: 3, p: 2, backgroundColor: "#04384A", color: "white" }}>
                         <Typography textAlign="center">Prediction Chart</Typography>
                     </Paper>
 
-                    {/* Date */}
+
                     <Typography textAlign="center" sx={{ mt: 1, fontWeight: "bold" }}>
                         2024-06-17
                     </Typography>
 
-                    {/* Placeholder for Graph */}
+
                     <Paper sx={{ height: 200, mt: 2, display: "flex", alignItems: "center", justifyContent: "center" }}>
                         <Typography>Graph Here</Typography>
                     </Paper>
 
-                    {/* Legend */}
+
                     <Box sx={{ mt: 2, display: "flex", justifyContent: "center", gap: 2 }}>
                         <Typography sx={{ color: "blue" }}>Envelop</Typography>
                         <Typography sx={{ color: "green" }}>Actual</Typography>
